@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts";
+
+:root {
+  --color-primary: rgba(29, 53, 87, 1);
+  --color-secondary: rgba(133, 151, 168, 1);
+  --color-background: rgba(245, 248, 250, 1);
+  --color-success: rgba(52, 199, 89, 1);       
+  --color-success-dark: rgba(30, 165, 78, 1);  
+  --color-warning: rgba(255, 204, 0, 1);       
+  --color-danger: rgba(219, 31, 38, 1);
+  --color-error: rgba(245, 10, 10, 1);        
+  --color-info: rgba(0, 120, 215, 1);         
+}
